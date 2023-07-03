@@ -134,3 +134,21 @@ h1, h2, h3, h4, h5, h6 {
         bottom: -55px;
         
         }
+.contacts__inner {
+    font-family: 'Lato', sans-serif;
+    position: relative;
+    right: -350px;
+    top: -150px;
+    font-size: 50px;
+    text-transform: uppercase;
+    line-height: 1.1;
+}
+.contacts__inner:hover {
+    color: #f8ce36;
+}
+.contacts {
+font-size: 25px;
+position: relative;
+right: -830px;
+top: -230px;
+}
