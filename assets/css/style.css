@@ -135,6 +135,8 @@ h1, h2, h3, h4, h5, h6 {
         
         }
 .contacts__inner {
+    width: 100%;
+    max-width: 100px;
     font-family: 'Lato', sans-serif;
     position: relative;
     right: -350px;
@@ -147,8 +149,40 @@ h1, h2, h3, h4, h5, h6 {
     color: #f8ce36;
 }
 .contacts {
+width: 100%;
+max-width: 1070px;
 font-size: 25px;
 position: relative;
 right: -830px;
 top: -230px;
+border-bottom: 2px solid #181a26;
+text-decoration: none;
+transition: color 1s linear;
+}
+/*main__links*/
+.main__link {
+    display: inline-block;
+    vertical-align: top;
+    margin: 0 10px;
+    position: relative;
+    color: #0f0f0f;
+    text-decoration: none;
+    transition: color 0.5s linear;
+}
+.main__link:after {
+    content: "";
+    display: block;
+    width: 100%;
+    height: 3px;
+    position: absolute;
+    background-color: #f8ce36;
+    top: 100%;
+    left: 0;
+    z-index: 1;
+    opacity: 1;
+    transition: opacity 0.5s linear;
+}
+.main__link:hover {
+    color: #f8ce36;
+
 }
