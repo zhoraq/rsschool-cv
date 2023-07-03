@@ -15,8 +15,7 @@ body {
 
 h1, h2, h3, h4, h5, h6 {
     margin: 0;
-}
-
+}  
 /*container*/
 .container {
     width: 100%;
@@ -199,3 +198,6 @@ transition: color 1s linear;
     color: #f8ce36;
 
 }
+.footer {
+    
+        }
