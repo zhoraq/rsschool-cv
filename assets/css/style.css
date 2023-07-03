@@ -122,3 +122,15 @@ h1, h2, h3, h4, h5, h6 {
     .nav__link:hover:after {
         opacity: 1;
     }
+    .avatar {
+        width: 100%;
+        max-width: 627px;
+        height: 560px;
+        margin: 0 auto;
+        position: relative;
+        border: 5px solid #f8ce36;
+        position: relative;
+        left: -480px;
+        bottom: -55px;
+        
+        }
