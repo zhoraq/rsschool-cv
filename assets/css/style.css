@@ -134,7 +134,7 @@ h1, h2, h3, h4, h5, h6 {
         bottom: -55px;
         
         }
-.contacts__inner {
+.main__inner {
     width: 100%;
     max-width: 100px;
     font-family: 'Lato', sans-serif;
@@ -145,10 +145,10 @@ h1, h2, h3, h4, h5, h6 {
     text-transform: uppercase;
     line-height: 1.1;
 }
-.contacts__inner:hover {
+.main__inner:hover {
     color: #f8ce36;
 }
-.contacts {
+.main {
 width: 100%;
 max-width: 1070px;
 font-size: 25px;
