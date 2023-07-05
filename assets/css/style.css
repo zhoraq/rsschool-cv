@@ -92,7 +92,7 @@ h1, h2, h3, h4, h5, h6 {
     font-weight: 700;
     color: #ffffff;
     position: relative;
-    right: -150px;
+    right: -125px;
     
 }
 /*nav*/
@@ -159,7 +159,7 @@ h1, h2, h3, h4, h5, h6 {
     max-width: 100px;
     font-family: 'Lato', sans-serif;
     position: relative;
-    right: -350px;
+    right: -180px;
     top: -150px;
     font-size: 50px;
     text-transform: uppercase;
