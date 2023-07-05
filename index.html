@@ -1,6 +1,11 @@
 <!DOCTYPE html>
 <html lang="en">
 <head>
+    <style>
+        html {
+          scroll-behavior: smooth;
+        }
+        </style>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="stylesheet" href="./assets/css/style.css">
@@ -16,11 +21,6 @@
     <div class="header__inner">
         <div class="header__logo">CV Georgy Kostyukovich</div>
         <nav class="nav">
-            <style>
-                html {
-                  scroll-behavior: smooth;
-                }
-                </style>
             <a class="nav__link" href="#contacts">Contacts</a>
             <a class="nav__link" href="#summary">Summary</a>
             <a class="nav__link" href="#skills">Skills</a>
@@ -35,19 +35,22 @@
     </header>
     <div class="intro">
         <div class="avatar">
-            <img class="img_avatar" src="./assets/images/avatar.png" width="597пpx" height="470">
+            <img class="img_avatar" src="./assets/images/avatar.png" width="597" height="470" alt="avatar">
         </div>
 <div class="container">
     <div class="intro__inner">
     <h1 class="intro__title">Georgy Kostyukovich</h1>
-    <h2 class="intro__title2">FRONT-END Developer<article id="contacts"></article></h2>    
+
+    <h2 class="intro__title2" id="contacts">FRONT-END Developer</h2>
+  
 </div>
     <h1 class="main__inner">Contacts</h1>
    <div class="main"><p><b>Location:</b> Belarus</p>
     <p><b>E-mail: </b> <a class="main__link" href="mailto:goshka.by@gmail.com" target="_blank">goshka.by@gmail.com</a></p>
     <p><b>Telegram: </b><a class="main__link" href="http://t.me/zhoraw" target="_blank">@zhoraw</a></p>  
-    <p><b>Discord: </b> zhoraw<article id="summary"></article></p>  
-    <p><b>GitHub: </b><a class="main__link" href="http://github.com/zhoraq" target="_blank">zhoraq</a></p>  
+    <p><b>Discord: </b> zhoraw</p>  
+    <p><b>GitHub: </b><a class="main__link" id="summary" href="http://github.com/zhoraq" target="_blank">zhoraq</a></p>  
+</div>
 </div>
 <h1 class="main__inner">Summary</h1>
 <div class="main">
@@ -57,16 +60,16 @@
     I am a hard worker and I love to constantly do something and develop.
      I can't sit idle. That's why I chose courses. 
      My goal is to get a lot of knowledge in front-end development and work in this area.
-    <p></p><article id="skills"></article>
+    <p id="skills"></p>
     </div>
     <h1 class="main__inner">Skills</h1>
     <div class="main">    
-     <p></p>   Will be changed in the process of receiving<article id="code"></article>
-     <p></p>
+     <p></p>   Will be changed in the process of receiving
+     <p id="code"></p>
 </div>
 <h1 class="main__inner">Code</h1>
 <div class="main">
-    <code><p>/*nav*/</p>
+    <p>/*nav*/</p>
         <p>.nav {</p>
            <p> text-transform: uppercase;
             <p>font-size: 20px;
@@ -97,24 +100,24 @@
                 <p>color: #f8ce36;</p>
                 <p>}</p>
             <p>.nav__link:hover:after {</p>
-            <p>opacity: 1;</p><article id="courses"></article>
-            <p></p>}
-    </code><p></p>
+            <p>opacity: 1;</p>
+            <p id="courses"></p>}
+    <p></p>
     </div>
     <h1 class="main__inner">Courses</h1>
 <div class="main"><p></p>Started to take a training course from RS.School JS/FE Stage #0
-    <p><article id="education"></article></p>
+    <p id="education"></p>
     </div>
     <h1 class="main__inner">Education</h1>
     <div class="main"><p></p><b>Euphrosyne Polotskaya State University of Polotsk</b>
-    <p>2018 - 2023 Information technology software</p><article id="languages"></article>
-        <p></p>
+    <p>2018 - 2023 Information technology software</p>
+        <p id="languages"></p>
         </div>
         <h1 class="main__inner">Languages</h1>
-    <div class="main"><p><b>&#8226; English  
-        <p>&#8226; Russian  
-        <p>&#8226; Belarusian </b> <article id="experience"></article>     
-        <p></p>
+    <div class="main"><p><b>&#8226; English</b></p>
+        <p>&#8226;<b> Russian </b></p>
+        <p>&#8226;<b> Belarusian </b></p>     
+        <p id="experience"></p>
         </div>
         <h1 class="main__inner">Experience</h1>
         <div class="main"> 
@@ -128,8 +131,9 @@
             <div class="footer">
             © 2023, Georgy Kostyukovich
             <div class="image__footer"><a href="https://rs.school/js/" target="_blank"><img src="./assets/images/rs_school_js-svg.png" width="80" 
-                height="25"></a></div>
-                <div class="image__footer1"><a href="http://github.com/zhoraq" target="_blank"><img src="./assets/images/github-logo.png" width="100" height="35"></a></div>
+                height="25" alt="logo-rs"></a></div>
+                <div class="image__footer1"><a href="http://github.com/zhoraq" target="_blank"><img src="./assets/images/github-logo.png" width="100" height="35" alt="github-logo"></a></div>
+            </div>
             </div>
 </body>
 </html>
