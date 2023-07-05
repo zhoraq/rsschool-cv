@@ -45,8 +45,8 @@ h1, h2, h3, h4, h5, h6 {
     position: relative;
     padding-left: 16%;
     margin: 0 auto;
-    left: -103px;
-    width: 1186px;
+    left: -173px;
+    width: 1256px;
     font-size: 130px;
     font-weight: 800;
     text-transform: uppercase;
@@ -92,7 +92,7 @@ h1, h2, h3, h4, h5, h6 {
     font-weight: 700;
     color: #ffffff;
     position: relative;
-    right: -250px;
+    right: -150px;
     
 }
 /*nav*/
@@ -141,13 +141,18 @@ h1, h2, h3, h4, h5, h6 {
         margin: 0 auto;
         left: -103px;
         top: 75px;
-        width: 850px;
+        width: 670px;
         margin: 0 auto;
         position: relative;
         left: -640px;
         background-color: #f8ce36;
         bottom: -90px;
         
+        }
+        .img_avatar {
+            position: relative;
+            left: -143px;
+            bottom: -25px;
         }
 .main__inner {
     width: 100%;
