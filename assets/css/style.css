@@ -1,0 +1,219 @@
+body {
+    /*font-family: 'Lato', sans-serif;*/
+    margin: 0;
+    font-family: 'Montserrat', sans-serif;
+    font-size: 15px;
+    line-height: 1.6;
+    color: #333;
+    }
+    *,
+*::before,
+*::after {
+    box-sizing: border-box;
+}
+
+h1, h2, h3, h4, h5, h6 {
+    margin: 0;
+}  
+/*container*/
+.container {
+    width: 100%;
+    max-width: 2555px;
+    margin: 0 auto;
+    align-items: center;
+}
+/*Intro*/
+.intro {
+    background: url(../images/intro.jpg) center;
+    background-size: cover;
+}
+.intro__inner {
+    height: 230px;
+    width: 100%;
+    max-width: 600px;
+    position: relative;
+    
+    right: -820px;
+    top: -450px;
+    color: #fff;
+}
+.intro__title {
+    background-color:#181a26;
+    height: 525px;
+    position: relative;
+    padding-left: 16%;
+    margin: 0 auto;
+    left: -173px;
+    width: 1256px;
+    font-size: 130px;
+    font-weight: 800;
+    text-transform: uppercase;
+    line-height: 1.1;
+    font-family: 'Lato', sans-serif;   
+}
+.intro__title:hover {
+    color: #f8ce36;
+}
+.intro__title2 {
+    width: 100%;
+    max-width: 577px;
+    font-size: 50px;
+    font-weight: 800;
+    text-transform: uppercase;
+    line-height: 1.1;
+    position: relative;
+    top: -200px;
+    left: -60px;
+    font-family: 'Lato', sans-serif;
+    background-color:#2e323b;
+}
+/*header*/
+.header {
+    width: 100%;
+    padding-top: 30px;
+    position: absolute;
+    top: 0;
+    left: 0;
+    right: 0;
+    z-index: 1000;
+    position: fixed;
+    background-color: #181a26;
+}
+.header__inner {
+    display: flex;
+    justify-content: space-between;
+}
+.header__logo {
+    font-size: 35px;
+    font-weight: 700;
+    color: #ffffff;
+    position: relative;
+    right: -125px;
+}
+/*nav*/
+.nav {
+    text-transform: uppercase;
+    font-size: 20px;
+    scroll-behavior: smooth;
+    }
+    .nav__link {
+        display: inline-block;
+        vertical-align: top;
+        margin: 0 10px;
+        position: relative;
+        color: #fff;
+        text-decoration: none;
+        transition: color 1s linear;
+    }    
+    .nav__link:after {
+        content: "";
+        display: block;
+        width: 100%;
+        height: 3px;
+        position: absolute;
+        background-color: #f8ce36;
+        top: 100%;
+        left: 0;
+        z-index: 1;
+        opacity: 0;
+        transition: opacity 1s linear;
+    }
+    .nav__link:hover {
+        color: #f8ce36;
+    }
+    .nav__link:hover:after {
+        opacity: 1;
+    }
+    .avatar {
+        height: 515px;
+        position: relative;
+        padding-left: 10%;
+        margin: 0 auto;
+        left: -103px;
+        top: 75px;
+        width: 670px;
+        margin: 0 auto;
+        position: relative;
+        left: -640px;
+        background-color: #f8ce36;
+        bottom: -90px;
+        }
+        .img_avatar {
+            position: relative;
+            left: -143px;
+            bottom: -25px;
+        }
+.main__inner {
+    width: 100%;
+    max-width: 100px;
+    font-family: 'Lato', sans-serif;
+    position: relative;
+    right: -180px;
+    top: -150px;
+    font-size: 50px;
+    text-transform: uppercase;
+    line-height: 1.1;
+}
+.main__inner:hover {
+    color: #f8ce36;
+}
+.main {
+width: 100%;
+max-width: 1070px;
+font-size: 25px;
+position: relative;
+right: -830px;
+top: -230px;
+border-bottom: 2px solid #181a26;
+text-decoration: none;
+transition: color 1s linear;
+}
+/*main__links*/
+.main__link {
+    display: inline-block;
+    vertical-align: top;
+    margin: 0 10px;
+    position: relative;
+    color: #0f0f0f;
+    text-decoration: none;
+    transition: color 0.5s linear;
+}
+.main__link:after {
+    content: "";
+    display: block;
+    width: 100%;
+    height: 3px;
+    position: absolute;
+    background-color: #f8ce36;
+    top: 100%;
+    left: 0;
+    z-index: 1;
+    opacity: 1;
+    transition: opacity 0.5s linear;
+}
+.main__link:hover {
+    color: #f8ce36;
+}
+.footer {
+background-color: #f8ce36;
+height: 70px;
+font-family: 'Lato', sans-serif;
+color:#000;
+padding-top: 1%;
+padding-left: 10%;
+font-size: 20px;
+        }
+        .image__footer {
+            position: relative;
+            width: 100px;
+            height: 35px;
+right: -1450px;
+top: -43px;
+        }
+        .image__footer1 {
+            position: relative;
+            width: 100px;
+            height: 35px;
+right: -1250px;
+top: -84px;
+        }
