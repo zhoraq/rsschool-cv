@@ -1,10 +1,139 @@
 <!DOCTYPE html>
 <html lang="en">
 <head>
+    <style>
+        html {
+          scroll-behavior: smooth;
+        }
+        </style>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Document</title>
+    <link rel="stylesheet" href="./assets/css/style.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Lato:wght@300&family=Montserrat&display=swap" rel="stylesheet">
+<link rel="icon" href="assets/favicon.ico">
+    <title>CV Georgy Kostyukovich</title>
 </head>
 <body>
+    <header class="header">
+        <div class="container">
+    <div class="header__inner">
+        <div class="header__logo">CV Georgy Kostyukovich</div>
+        <nav class="nav">
+            <a class="nav__link" href="#contacts">Contacts</a>
+            <a class="nav__link" href="#summary">Summary</a>
+            <a class="nav__link" href="#skills">Skills</a>
+            <a class="nav__link" href="#code">Code</a>
+            <a class="nav__link" href="#courses">Courses</a>
+            <a class="nav__link" href="#education">Education</a>
+            <a class="nav__link" href="#languages">Languages</a>
+            <a class="nav__link" href="#experience">Experience</a>
+                </nav>
+        </div>
+        </div>
+    </header>
+    <div class="intro">
+        <div class="avatar">
+            <img class="img_avatar" src="./assets/images/avatar.png" width="597" height="470" alt="avatar">
+        </div>
+<div class="container">
+    <div class="intro__inner">
+    <h1 class="intro__title">Georgy Kostyukovich</h1>
+
+    <h2 class="intro__title2" id="contacts">FRONT-END Developer</h2>
+  
+</div>
+    <h1 class="main__inner">Contacts</h1>
+   <div class="main"><p><b>Location:</b> Belarus</p>
+    <p><b>E-mail: </b> <a class="main__link" href="mailto:goshka.by@gmail.com" target="_blank">goshka.by@gmail.com</a></p>
+    <p><b>Telegram: </b><a class="main__link" href="http://t.me/zhoraw" target="_blank">@zhoraw</a></p>  
+    <p><b>Discord: </b> zhoraw</p>  
+    <p><b>GitHub: </b><a class="main__link" id="summary" href="http://github.com/zhoraq" target="_blank">zhoraq</a></p>  
+</div>
+</div>
+<h1 class="main__inner">Summary</h1>
+<div class="main">
+    <p></p>
+    I am 24 years old. I work as a system administrator. 
+    There is no career growth and development in my work. 
+    I am a hard worker and I love to constantly do something and develop.
+     I can't sit idle. That's why I chose courses. 
+     My goal is to get a lot of knowledge in front-end development and work in this area.
+    <p id="skills"></p>
+    </div>
+    <h1 class="main__inner">Skills</h1>
+    <div class="main">    
+     <p></p>   Will be changed in the process of receiving
+     <p id="code"></p>
+</div>
+<h1 class="main__inner">Code</h1>
+<div class="main">
+    <p>/*nav*/</p>
+        <p>.nav {</p>
+           <p> text-transform: uppercase;
+            <p>font-size: 20px;
+            <p>}
+            <p>.nav__link {
+                <p>display: inline-block;</p>
+                <p>vertical-align: top;</p>
+                <p>margin: 0 10px;</p>
+                <p>position: relative;</p>
+                <p>color: #fff;</p>
+                <p>text-decoration: none;</p>
+                <p>transition: color 1s linear;</p>
+                <p>}</p>
+                <p>.nav__link:after {</p>
+                <p>content: "";</p>
+                 <p>display: block;</p>
+                <p>width: 100%;</p>
+                <p>height: 3px;</p>
+                <p>position: absolute;</p>
+                <p>background-color: #f8ce36;</p>
+                <p>top: 100%;</p>
+                <p>left: 0;</p>
+                <p>z-index: 1;</p>
+                <p>opacity: 0;</p>
+                <p>transition: opacity 1s linear;</p>
+                <p>}</p>
+                <p>.nav__link:hover {</p>
+                <p>color: #f8ce36;</p>
+                <p>}</p>
+            <p>.nav__link:hover:after {</p>
+            <p>opacity: 1;</p>
+            <p id="courses"></p>}
+    <p></p>
+    </div>
+    <h1 class="main__inner">Courses</h1>
+<div class="main"><p></p>Started to take a training course from RS.School JS/FE Stage #0
+    <p id="education"></p>
+    </div>
+    <h1 class="main__inner">Education</h1>
+    <div class="main"><p></p><b>Euphrosyne Polotskaya State University of Polotsk</b>
+    <p>2018 - 2023 Information technology software</p>
+        <p id="languages"></p>
+        </div>
+        <h1 class="main__inner">Languages</h1>
+    <div class="main"><p><b>&#8226; English: </b>A2 (Elementary)</p>
+        <p>&#8226;<b> Russian </b></p>
+        <p>&#8226;<b> Belarusian </b></p>     
+        <p id="experience"></p>
+        </div>
+        <h1 class="main__inner">Experience</h1>
+        <div class="main"> 
+            <p>&#8226; <b>2018-2019</b> Driver C category  
+            <p>&#8226; <b> 2019-2020</b> Shop manager  
+            <p>&#8226; <b>2020-2021</b> Taxi driver
+            <p>&#8226; <b>2021-2022</b> GPS-monitoring company technical support agent**  
+            <p>&#8226; <b>2022-this moment</b> System administrator    
+            <p></p>
+            </div>
+            <div class="footer">
+            © 2023, Georgy Kostyukovich
+            <div class="image__footer"><a href="https://rs.school/js/" target="_blank"><img src="./assets/images/rsschool-logo.png" width="100" 
+                height="50" alt="logo-rs"></a></div>
+                <div class="image__footer1"><a href="http://github.com/zhoraq" target="_blank"><img src="./assets/images/github-logo.png" width="150" height="60" alt="github-logo"></a></div>
+            </div>
+            </div>
 </body>
 </html>
